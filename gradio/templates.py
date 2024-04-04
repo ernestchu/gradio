@@ -460,7 +460,7 @@ class Files(components.File):
             elem_id=elem_id,
             elem_classes=elem_classes,
             render=render,
-            max_file_size=max_file_size
+            max_file_size=max_file_size,
         )
 
 
