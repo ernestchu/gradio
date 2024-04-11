@@ -692,7 +692,6 @@ class TestImage:
             "_selectable": False,
             "streamable": False,
             "type": "pil",
-            "max_file_size": None,
         }
         assert image_input.preprocess(None) is None
         image_input = gr.Image()
@@ -869,7 +868,6 @@ class TestAudio:
             "elem_classes": [],
             "visible": True,
             "value": None,
-            "max_file_size": None,
             "interactive": None,
             "proxy_url": None,
             "type": "numpy",
@@ -925,7 +923,6 @@ class TestAudio:
             "elem_classes": [],
             "visible": True,
             "value": None,
-            "max_file_size": None,
             "interactive": None,
             "proxy_url": None,
             "type": "filepath",
@@ -1035,7 +1032,6 @@ class TestFile:
             "elem_classes": [],
             "visible": True,
             "value": None,
-            "max_file_size": None,
             "interactive": None,
             "proxy_url": None,
             "_selectable": False,
@@ -1540,7 +1536,6 @@ class TestVideo:
             "elem_classes": [],
             "visible": True,
             "value": None,
-            "max_file_size": None,
             "interactive": None,
             "proxy_url": None,
             "mirror_webcam": True,
@@ -2231,7 +2226,6 @@ class TestModel3D:
             "elem_id": None,
             "elem_classes": [],
             "proxy_url": None,
-            "max_file_size": None,
             "interactive": None,
             "name": "model3d",
             "camera_position": (None, None, None),
