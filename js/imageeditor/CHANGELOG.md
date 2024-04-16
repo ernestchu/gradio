@@ -1,5 +1,24 @@
 # @gradio/imageeditor
 
+## 0.5.0
+
+### Features
+
+- [#7845](https://github.com/gradio-app/gradio/pull/7845) [`dbb7373`](https://github.com/gradio-app/gradio/commit/dbb7373dde69d4ed2741942b5a1898f8620cec24) - ensure `ImageEditor` events work as expected.  Thanks @pngwn!
+
+### Fixes
+
+- [#7959](https://github.com/gradio-app/gradio/pull/7959) [`2a5cb97`](https://github.com/gradio-app/gradio/commit/2a5cb978240960fd8b150a1eae6ae8328a5c0c59) - ensure `ImageEditor` always draws at the correct position.  Thanks @hrrbay!
+
+### Dependency updates
+
+- @gradio/utils@0.3.2
+- @gradio/atoms@0.6.3
+- @gradio/statustracker@0.4.12
+- @gradio/client@0.16.0
+- @gradio/upload@0.8.5
+- @gradio/image@0.9.12
+
 ## 0.4.11
 
 ### Fixes
